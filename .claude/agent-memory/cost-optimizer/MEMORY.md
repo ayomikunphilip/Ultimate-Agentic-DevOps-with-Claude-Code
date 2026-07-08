@@ -1,0 +1,4 @@
+- [S3 Versioning Overhead](findings_s3_versioning.md) — Enabled by default; unnecessary for static portfolio, adds storage costs
+- [CloudFront Price Class](findings_cloudfront_pricecls.md) — PriceClass_200 used; can optimize to PriceClass_100 for regional focus
+- [Missing S3 Lifecycle Rules](findings_s3_lifecycle.md) — No cleanup policy for old versions; should auto-delete or archive
+- [Terraform State Backend](findings_tfstate_costs.md) — Commented out, but S3+DynamoDB adds ~$2-3/month when enabled

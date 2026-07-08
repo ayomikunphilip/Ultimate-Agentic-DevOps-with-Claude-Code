@@ -1,0 +1,1 @@
+- [DMI Portfolio terraform stack](project_dmi_portfolio_stack.md) — minimal S3+CloudFront OAC scaffold, recurring gaps: missing SourceArn condition, no SSE, no logging, no headers policy, no WAF.
