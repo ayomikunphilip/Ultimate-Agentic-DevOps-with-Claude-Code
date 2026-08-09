@@ -4,6 +4,12 @@
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-github"],
       "env": {}
-    }
-  }
+    },
+  "jira": {
+     "command": "uvx",
+     "args": ["mcp-atlassian"],
+     "env": {}
+   }
+ }
 }
+
